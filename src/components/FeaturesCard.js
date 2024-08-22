@@ -41,7 +41,7 @@ const FeaturesCard = () => {
     return (
         <div className='flex flex-col items-center'>
             <h2 className='text-3xl font-bold mb-4 '>Features</h2>
-            <div className='grid md:grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 justify-around gap-4 container px-16'>
+            <div className='grid md:grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 justify-around gap-4 container px-14'>
                 {CardArray.map((card, index) => (
                     <div className='flex flex-col items-center mb-10 border-gray-200 border-2 rounded-xl shadow-xl w-[100] h-auto p-3'>
                         <img src={card.image} alt='' className='h-20 w-20' />
